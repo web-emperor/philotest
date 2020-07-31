@@ -1,0 +1,47 @@
+.nav-bar{
+	
+	margin-bottom: -20px;
+	padding-bottom: 20px;
+	border-radius: 0%;
+	font-family: 'Jenriv titling';
+	font-size: 19px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;  
+	justify-content: space-around;
+	padding-top:40px;
+	height: 80px;
+	position: relative;
+	z-index: 10000;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.nav-bar-artistes{
+	margin-bottom: -20px;
+	padding-bottom: 20px;
+	border-radius: 0%;
+	font-family: 'Jenriv titling';
+	font-size: 19px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;  
+	justify-content: space-around;
+	padding-top:40px;
+	height: 80px;
+	width: 100%;
+	position: relative;
+	z-index: 10000;
+	background-color: #6495ed;
+
+
+}

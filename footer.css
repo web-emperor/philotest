@@ -1,0 +1,63 @@
+.footer-container ul{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	font-family:'Jenriv titling';
+	background-color: ;
+	height: 100px;
+	width: 110%;
+	list-style: none;
+	padding: 20px 10px;
+	font-size: 25px;
+	border-radius: 1px;
+	margin-top: 22px;
+	transform: translate(0px, 60px);
+	background-color: black;
+	color: white; 
+
+
+
+
+
+}
+
+.footer-container a{
+	color:white;
+}
+
+
+html{
+	background-color: black;
+}
+.footer-container ul li{
+	margin-right: 60px;
+
+}
+
+li img{
+width: 35px;
+height: 35px;
+transform: translate(0px,10px);}
+
+
+#mail{
+transform: translate(0px,25px);
+color: white;
+}
+
+#mail a:hover{
+color: #DC143C;
+transition: 0.4s all ease;
+}
+
+#footer-brand{
+	transform: translate(0px,20px);
+	font-size: 16px
+}
+
+.mini-container-social{
+	width: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}

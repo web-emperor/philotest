@@ -1,0 +1,105 @@
+span {
+
+    display: block;
+    float: left;
+    width: 45px;
+
+}
+.question-card{
+	height: 45px;
+	padding: 20px;
+	padding-bottom: 25px;
+
+	background-color: #303030;
+	font-family: 'Times new roman';
+	color: white;
+
+
+}
+
+.grey {
+	background-color: #0b6f70;
+	color: black;
+}
+
+.grey a{color:black;}
+.question{color: white;}
+.answer{color: white;}
+
+div .answer {
+	background-color: #303030;
+	border:0.5px solid black;
+	height: 100%;
+	font-size: 26px;
+	padding:25px;
+
+
+
+
+}
+ 
+
+ .faq{
+ 	margin-bottom: 15px;
+ }
+
+
+div.faq{
+	margin-left: 100px;
+	width: 55%;
+	transform: translate(260px);
+}
+
+
+
+/* This prevents JQuery's slidedown jerky bug */
+
+.blue-title{
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+}
+
+
+.faqplusminus{color:white }
+
+
+.faq-container{
+	margin-top: 0px;
+	margin-bottom: 80px;
+	
+
+
+
+ }
+.css-1ig7ubs {
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+
+}
+
+@media (max-width:800px){
+	div.faq { width: 360px;
+	}
+
+
+	
+}
+
+}
+
+
+
+
+.margin-top-less{
+	margin-top: 0;
+	
+
+}
+
+.border-different{
+	border:2px solid black;
+	
+
+
+

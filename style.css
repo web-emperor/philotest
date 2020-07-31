@@ -1,0 +1,103 @@
+@import url(components/container.css);
+@import url(components/logo.css);
+@import url(components/banner.css);
+@import url(components/nav.css);
+@import url(components/cards.css);
+@import url(components/footer.css);
+@import url(components/list.css);
+@import url(components/btns.css);
+@import url(components/icons.css);
+@import url(components/accordion.css);
+@import url(components/align-items.css);
+@import url(components/mediaqueries.css);
+@import url(components/dropdown.css);
+@import url(components/inputandul.css);
+
+
+
+.white{
+    background-color: white;
+}
+html{background-color: black;}
+body{
+    background-color: black;
+}
+
+h1{font-size: 58px;
+font-family: 'Jenriv titling';}
+
+#title{
+    font-size: 50px;
+}
+
+h2{word-spacing: 6px;}
+
+
+.lighter{font-weight: lighter;}
+
+.text-align{text-align: center;}
+
+.quote{
+	font-family: 'Jenriv titling';
+    padding-top: 20px;
+    font-size: 36px;
+
+
+}
+
+    .quote h2 {
+    	font-size: 40px;
+    	padding-top: 0px;
+        font-family: 'Jenriv titling';
+         color: #FFF8DC;
+    
+    }
+
+.def{
+	text-align: right;
+	font-family: 'Jenriv titling';
+    padding-top: 60px;
+    font-size: 26px;
+    padding-right: 100px;
+    transform: translate(0px,-90px);
+color: #FFF8DC}
+
+
+.def a {color:#FFF8DC}
+
+#blue-und{
+
+    color: blue;
+    font-size: 14px;
+}
+
+#blue-und:hover{
+      text-decoration: underline;
+      background-color: #f1f1f1;
+}
+
+@media (max-width:980px ){
+    .quote h2{
+    font-family: 'Jenriv titling';
+    padding-top: 20px;
+    font-size: 32px;
+    }
+
+
+
+}
+
+h3 {
+
+	color: white;
+	font-family: 'Jenriv titling';
+	text-align: center;
+	transform: translate(0px,100px);
+	}
+
+
+a{
+color: black;
+text-decoration: none;}
+
+

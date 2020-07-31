@@ -1,0 +1,54 @@
+.list{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	flex-direction: column;
+	font-family: 'CMU concrete';
+	font-size: 32px;
+	font-weight: bolder;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 500px;
+	color:white;
+	
+
+}
+
+.list li{
+	width: 350px;
+	padding:5px;
+}
+
+
+
+.list li:hover {
+  
+  transform: translate(15px);
+  transition: 0.2s;
+
+
+}
+
+.list li a:focus {
+  
+  opacity: 0.5
+
+}
+
+
+a:visited{
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+
+#sub-coming{
+	font-family: 'Expressway';
+	padding-bottom: 14px;
+	text-align: center;
+	transform: translate(-20px);
+}
+
+
+
+

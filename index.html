@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>philorap</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<div class="container">
+  
+
+  <nav>
+
+	<div class="banner background-scene" alt="rap scene">
+
+      <ul class="nav-bar">
+   
+      <a href="file:///Users/soufianeahizoune/Desktop/philorap/index.html#accueil"> <li>   <img class="logo-animation" src="images/logo3-transp.png"></li></a>
+ 
+     
+<div class="container-btns">
+
+
+<div class="dropdown">
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunctionone() {
+  document.getElementById("myDropdownone").classList.toggle("show");
+}
+
+function myFunctiontwo() {
+  document.getElementById("myDropdowntwo").classList.toggle("show");
+}
+
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<div class="dropdown-container">
+
+  <div class="dropdown artistes">
+  <button onclick="myFunctionone()" class="dropbtn">Artistes <img id="arrow" src="images/arrow-bottom.png"></button>
+  <div id="myDropdownone" class="dropdown-content">
+    <a href="file:///Users/soufianeahizoune/Desktop/philorap/damso.html">Damso</a>
+    <a href="#">Nekfeu</a>
+    <a href="#">Booba</a>
+    <a href="#">Vald</a>
+    <a href="#">Alpha wann</a>
+    <a href="#">Josman</a>
+    <a href="#"> Kaaris </a>
+    <a id="blue-und" href="file:///Users/soufianeahizoune/Desktop/philorap/artistes.html"> Voir plus </a>
+  </div>
+</div>
+
+
+<div class="dropdown themes">
+  <button onclick="myFunctiontwo()" class="dropbtn">Themes <img id="arrow" src="images/arrow-bottom.png">
+  </button>
+  <div id="myDropdowntwo" class="dropdown-content">
+    <a href="#"> La société </a>
+    <a href="#"> L'amour</a>
+    <a href="#"> La mort</a>
+    <a href="#"> Le Temps</a>
+    <a href="#"> La liberté</a>
+    <a href="#"> Le Bonheur</a>
+
+
+  </div>
+</div>
+
+  </div>
+
+
+
+  </div>
+
+  
+
+
+
+
+
+
+
+
+    </ul>
+
+
+		<h3 >
+			Le site qui allie rap et philosophie
+		</h3>
+       <h6>  Mieux comprendre le rap par la philo,mieux comprendre la philo par le rap !</h6>
+        <h5 class="text-align "> Vote ici pour ton rappeur favori</h5>
+
+        <a href="#vote-section"><div class="vote-btn">JE VOTE</div></a>
+  </div>
+
+<div class="card-container flex slim">
+<h1>
+  Découvre les meilleures punchlines du RAP francophone !
+</h1>
+
+<a href="#"><div class="btn-yellow"> DÉCOUVRIR 
+</div></a>
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<script>
+
+$(function() {
+
+    $('div.answer').hide();
+
+    $('a.question').before('<span class="faqplusminus">[+]</span>');
+
+    $('a.question').click(function() {
+
+        $('div.answer').slideUp('fast', 'easeInOutExpo');
+
+        $('span.faqplusminus').html('[+]');
+
+        var slidedownelement = $(this).closest('div.faq').find('div.answer').eq(0);
+
+        if(!slidedownelement.is(':visible')) {
+
+            slidedownelement.slideDown('fast', 'easeInOutExpo');
+            slidedownelement.parent().find('span.faqplusminus').html('[-]');
+
+        }
+
+    });
+
+});
+
+</script>
+
+<h1 class="blue-title">Thèmes traités</h1>
+
+
+
+<div class="faq-container ">
+
+<div class="faq">
+ <div class="question-card">
+<h2><a class="question" href="javascript:void(0);">La Société</a></h2>
+</div>
+
+<div class="answer">
+<p>La société est un thème souvent abordé dans le rap, notamment pour souligner les inégalités frappantes entre les différentes classes sociales. On retrouve beaucoup ce thème dans le dernier album de Vald : "Ce Monde est Cruel".
+<br><br>La société est un sujet important dans le rap comme en philosophie parce qu'elle est en relation directe avec le sujet ou l'individu ; entre les deux existe une relation d'influence réciproque.</p>
+</div>
+</div>
+
+<div class="faq">
+    <div class="question-card">
+<h2><a class="question" href="javascript:void(0);">L'Identité</a></h2>
+</div>
+
+<div class="answer">Le thème de l'identité est également récurrent dans le rap. En effet, les rappeurs sont souvent confrontés à la question de l'identité étant donné que la réussite change la manière dont les autres les perçoivent ; Or, la manière dont les autres nous perçoivent influe grandement sur notre conscience de nous-même et donc sur notre identité. Comme le disait Hegel, "La conscience générale de soi est l’affirmative connaissance de soi-même dans l’autre moi".<br><br>
+
+ Souvent, on entend parler du syndrome de l'imposteur dans les interviews des rappeurs, lequel syndrome pousse le rappeur à succès à se poser des questionns sur qui il est : un rappeur, un homme, un acteur de la société ou simplement une marque ?
+<p></p>
+</div>
+</div>
+
+
+
+<div class="faq">
+
+        <div class="question-card">
+<h2><a class="question" href="javascript:void(0);">La Mort</a></h2>
+</div>
+
+<div class="answer">
+<p>La question de la finitude de l'homme a été abordée depuis que l'homme a commencé à penser. Ce thème n'a bien évidemment pas échappé au rap, qui n'est qu'un moyen de plus pour exprimer les nombreuses angoisses liées à la pensée de la mort.
+
+<br><br> C'est à partir de la mort que l'homme pense et choisit sa vie. Dans le rap francophone, d'innombrables titres abordent le sujet de la mort, que ce soit la mort à la première personne ou à la deuxième personne (mort d'un proche). Plus encore, la mort, dans le rap, peut prendre d'autres aspects comme l'apathie : Damso dit qu'il "se sent mort dans un corps en vie", d'où son album "Lithopédion" qui désigne l'enfant mort-né dans le corps en vie de sa mère.
+
+</p>
+</div>
+</div>
+
+
+
+<div class="faq">
+
+        <div class="question-card">
+<h2><a class="question" href="javascript:void(0);">L'Amour</a></h2>
+</div>
+
+<div class="answer">
+<p>Comme dans tous les genres musicaux, l'amour est un sujet incontournable.
+ Chez les rappeurs, qui pour la majorité écrasante se revendiquent hétérosexuels, l'amour, c'est la femme.
+
+<br><br> Plusieurs sortes d'amour sont évoqués dans les textes de rap, que ce soit la romance, l'amour platonique,l'amour maternel, l'amour charnel, ou encore l'amour fraternel. Le titre le plus original qui traite ce thème est sans doute "Une âme pour deux" de Damso, puisqu'il mêle amour charnel et amour maternel, lequel mélange est, depuis toujours, un tabou dans la majorité des civilisations.
+
+</p>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="faq">
+
+        <div class="question-card">
+<h2><a class="question" href="javascript:void(0);">Le Bonheur</a></h2>
+</div>
+
+<div class="answer">
+  <p>
+  L'eudémonisme est la croyance selon laquelle le but ultime de l'homme est d'être heureux. Tout homme est par définition eudémonsite parce qu'il fuit la souffrance et cherche le bien-être. Cependant, la quête du bonheur semble sans fin et pose la question de l'existence même du bonheur.
+
+
+<br><br> Dans le rap, la question du bonheur est soulevée à de nombreuses reprises, le plus souvent par le biais de métaphores non équivoques.Ce thème est généralement discuté une fois la réussite accomplie : malgré la réussite, les artistes se rendent compte que le bonheur n'est pas chose aisée et qu'il n'est peut-être finalement rien de plus qu'un mirage.
+</p>
+</div>
+</div>
+
+
+<div class="faq">
+
+        <div class="question-card">
+<h2><a class="question" href="javascript:void(0);">La Liberté</a></h2>
+</div>
+
+<div class="answer">
+<p>
+Tout comme le bonheur, la liberté est un concept épineux. En effet, malgré tous les efforts que fournit l'homme pour se libérer des contraintes qui l'oppressent, il a toujours l'impression d'être un hamster dans une roue.
+<br><br> La volonté d'être libre anime tous les rappeurs qui voient souvent la liberté dans sa dimension financière : être libre c'est avoir assez d'argent pour ne manquer de rien. Cependant, certains prennent conscience que la liberté n'est toujours pas là et qu'ils ont juste troqué leurs chaînes en acier contre des chaînes en or.
+
+</p>
+</div>
+</div>
+
+
+
+
+<div class="faq">
+      <div class="question-card">
+<h2><a class="question" href="javascript:void(0);">Temps et Mémoire</a></h2>
+</div>
+
+<div class="answer">
+  <p>
+    Le temps qui fuit est un thème cher à philosophes et rappeurs.
+    <br>
+    Dans cette rubrique, nous verrons comment les grands rappeurs composent avec le temps et nous montrerons qu'ils reprennent (souvent sans le savoir) des concepts complexes de l'histoire de la philosophie.
+
+</p>
+
+</div>
+</div>
+
+
+
+</div>
+
+
+<div class="card-container">
+    <div class="card-quote">
+
+      <div class="quote text-align">
+     <h2> 
+      "le rap c'est la philosophie pour les nuls"
+     </h2>
+      </div>
+
+     <h5 class="def">
+      <a href="">Vald</a> -&nbsp;&nbsp; No friends
+     </h5>
+</div>
+     
+
+</div>
+
+
+<div id="vote-section" >
+      <div class="typeform-widget" data-url="https://soufianeahizoune.typeform.com/to/t2UiDA" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=t2UiDA&utm_source=typeform.com-01E5FMZQC1YMFP40XHQHSMZ9ED-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+
+
+
+
+<footer>
+
+        <div class="footer-container">
+
+            <ul>
+                    <li  id="mail"> 
+                        <a  href="mailto:philorap@outlook.com">Contact</a></li>
+                    
+
+                        <div class="mini-container-social">
+
+
+
+                    <li><a href=""><a href="#" class="fa fa-twitter"></a>
+                    </li>
+
+                    <li ><a href="#" class="fa fa-facebook"></a>
+
+                    </li>
+                    <li ><a href="#" class="fa fa-instagram"></a>
+
+                    </li>
+                  </div>
+                <li id="footer-brand"> Philorap  marque déposée</i> </li>
+            
+            </ul>
+            
+
+        </div>
+
+     </footer>
+
+
+
+    </div>
+
+
+	</div>
+
+
+
+
+
+</div>
+
+
+</body>
+</html>

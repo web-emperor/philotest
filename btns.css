@@ -1,0 +1,179 @@
+
+.vote-btn{
+	width: 120px;
+	height: 26px;
+	background-color:  #6495ed;
+	padding: 7px; 
+	text-align: center;
+	font-family: 'Jenriv titling';
+	font-size: 20px;
+	border-radius: 15px;
+	margin-top: 10px;
+
+
+	
+
+
+}
+
+.margin-left{margin-left: 45%;}
+
+.vote-btn:hover{
+background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%););
+
+	
+
+	
+
+}
+
+	.btn-b{
+		font-family: 'Jenriv titling';
+		font-size: 22px;
+		text-align: right;
+		margin-right: 40px;
+		margin-top: 40px;
+		font-weight: bolder;
+		border: 0.5px solid #003B62;
+		justify-content: right;
+		display: flex;
+		flex-direction: row;
+		align-self: center;
+		 transform: translate(-100px);
+         float: right;
+         background-color: white;
+         padding:10px;
+         margin-bottom: 30px;
+         border-radius: 12px;
+       
+         
+
+	}
+
+	
+
+
+.large-btn{
+
+
+
+ 
+	text-align: center;
+	font-family: 'Jenriv titling';
+	font-size: 20px;
+	border-radius: 15px;
+	margin-top: 10px;
+	width: 260px;
+	height: 30px;
+	font-size: 30px;
+	padding:20px;
+	margin-bottom: 50px;
+	background-color: #22A7F0 ;
+
+
+}
+
+.large-btn:hover{
+	background-color: #6495ed;
+}
+
+.container-btns{
+transform: translate(00px);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+
+
+@media (max-width: 500px){
+	
+
+
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+   padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+.fa:focus {
+    opacity: 0.7;
+}
+
+.btn-yellow {
+	background-color: yellow;
+	border-radius: 5px;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: 'Jenriv titling';
+	text-align: center;}
+
+
+	.btn-all {
+	padding:8px;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	transform: translate(50px,0px);
+
+
+
+
+}
+.card-btn{
+	display: flex;
+	margin-top: 20px;
+	text-align: center;
+	margin-left: 40%;
+	
+	
+}
+
+
+.btn-yellow:hover, .btn-yellow:focus{
+	background-color: #e2e305
+}
+
+.see{font-size: 12px}

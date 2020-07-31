@@ -1,0 +1,40 @@
+.icon{
+	width: 55px;
+	height: 55px;
+	transform: translate(0px,5px);
+
+
+
+}
+
+.longer-icon{
+	height: 70px;
+	width: 45px;
+}
+
+.thiner{
+	width: 45px;
+	height: 55px;
+
+}
+
+.left-larger{
+	transform: translate(5px,0px);
+	width: 65px;
+}
+
+#hover-blue:hover{
+	color: rgb(15, 0, 217);
+
+}
+
+.larger-icon{
+	width: 80px;
+	transform: translate(-30px);
+}
+
+#float-left{
+	float: right;
+	transform: translate(-50px);
+
+}
